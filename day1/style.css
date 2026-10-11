@@ -101,3 +101,24 @@ footer {
     flex-direction: column;
   }
 }
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.note span {
+  overflow-wrap: anywhere;
+}
+
+.delete-btn {
+  background-color: #8e0000;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.delete-btn:hover {
+  background-color: #6b0000;
+}
